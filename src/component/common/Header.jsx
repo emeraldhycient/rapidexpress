@@ -43,8 +43,10 @@ function Header() {
           </li>
         </ul>
         <div className="">
-          <button className="btn btn-success px-4 mr-3">Login</button>
-          <button className="btn btn-success px-4 mr-3">Register</button>
+          <button className="btn primary-bg text-light px-4 mr-3">Login</button>
+          <button className="btn primary-bg text-light px-4 mr-3">
+            Register
+          </button>
         </div>
       </div>
     </nav>
