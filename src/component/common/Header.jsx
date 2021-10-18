@@ -1,11 +1,13 @@
 import React from "react";
-import logo from "../images/DSCRIER DESIGN PNG PURPLE.png";
+import logo from "../images/cover.png";
 
 function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand ml-3" href="#">
-        <img src={logo} alt="" width="100px" height="50px" />
+      <a className="navbar-brand ml-3" href="/">
+        <h3 className="primary-text">
+          <b>BiaCourier</b>
+        </h3>
       </a>
       <button
         className="navbar-toggler"
@@ -22,30 +24,36 @@ function Header() {
       <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul className="navbar-nav mx-auto mt-2 mt-lg-0">
           <li className="nav-item active">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="/">
+              <h6>Home</h6>
+            </a>
+          </li>
+          <li className="nav-item active">
+            <a className="nav-link" href="/contact-us">
               <h6>Contact Us</h6>
             </a>
           </li>
           <li className="nav-item active">
-            <a className="nav-link" href="#">
-              <h6>Packages</h6>
+            <a className="nav-link" href="/tracking">
+              <h6>Tracking</h6>
             </a>
           </li>
           <li className="nav-item active">
-            <a className="nav-link" href="#">
-              <h6>Knowledge Base</h6>
-            </a>
-          </li>
-          <li className="nav-item active">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="/tc">
               <h6>Terms & Conditions</h6>
             </a>
           </li>
         </ul>
         <div className="">
-          <button className="btn primary-bg text-light px-4 mr-3">Login</button>
-          <button className="btn primary-bg text-light px-4 mr-3">
-            Register
+          <button className="btn primary-bg text-light px-4 mr-3 round">
+            <a href="/login" className="text-light">
+              Login
+            </a>
+          </button>
+          <button className="btn primary-bg text-light px-4 mr-3 round">
+            <a href="/register" className="text-light">
+              Register
+            </a>
           </button>
         </div>
       </div>

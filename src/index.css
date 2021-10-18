@@ -8,9 +8,21 @@ body {
 }
 
 .primary-bg {
-    background-color: #800080;
+    background-color: #A020F0;
 }
 
 .primary-text {
-    color: #800080;
+    color: rgb(160, 32, 240);
+}
+
+.shadow {
+    box-shadow: -1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: -1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: -1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.hr {
+    width: 100px;
+    background-color: #A020F0;
+    height: 4px;
 }
