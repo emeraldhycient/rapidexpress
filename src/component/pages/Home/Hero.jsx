@@ -1,4 +1,7 @@
 import React from "react";
+import sea from "../../images/sea.jpeg";
+import air from "../../images/air.jpeg";
+import fast from "../../images/fast.jpeg";
 
 function Hero() {
   return (
@@ -19,19 +22,13 @@ function Hero() {
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img
-              src="https://media.istockphoto.com/photos/aerial-view-of-a-container-cargo-ship-sailing-into-bad-weather-picture-id1280111270?b=1&k=20&m=1280111270&s=170667a&w=0&h=IN6QCSHpnGZ3BMXyzPUHiQmnSLXyTiUxV16JSpyrKb0="
-              alt="..."
-              className="heroimg"
-            />
+            <img src={sea} alt="..." className="heroimg" />
             <div className="carousel-caption">
               <p>
-                Use data attributes to easily control the position of the
-                carousel. data-slide accepts the keywords prev or next, which
-                alters the slide position relative to its current position.
-                Alternatively, use data-slide-to to pass a raw slide index to
-                the carousel data-slide-to="2", which shifts the slide position
-                to a particular index beginning with 0.
+                Bia-courier supports Industries, importers, Online Sellers,
+                Startup Brands and Big Businesses to find reliable suppliers,
+                get the right prices, follow up production, ensure quality and
+                deliver goods to you in time. We are here at your disposal!
               </p>
               <div className="herobtn">
                 <button className="btn primary-bg text-light px-4 mr-3  round">
@@ -48,19 +45,13 @@ function Hero() {
             </div>
           </div>
           <div className="carousel-item">
-            <img
-              src="https://media.istockphoto.com/photos/generic-cargo-container-ship-at-sea-picture-id591986620?b=1&k=20&m=591986620&s=170667a&w=0&h=VKDb8G_i9pCi1HTOEPda4cD-W_XeHbGJCGoI7gLbk6g="
-              alt="..."
-              className="heroimg"
-            />
+            <img src={air} alt="..." className="heroimg" />
             <div className="carousel-caption">
               <p>
-                Use data attributes to easily control the position of the
-                carousel. data-slide accepts the keywords prev or next, which
-                alters the slide position relative to its current position.
-                Alternatively, use data-slide-to to pass a raw slide index to
-                the carousel data-slide-to="2", which shifts the slide position
-                to a particular index beginning with 0.
+                Bia-courier supports Industries, importers, Online Sellers,
+                Startup Brands and Big Businesses to find reliable suppliers,
+                get the right prices, follow up production, ensure quality and
+                deliver goods to you in time. We are here at your disposal!
               </p>
               <div className="herobtn">
                 <button className="btn primary-bg text-light px-4 mr-3  round hidden">
@@ -77,19 +68,13 @@ function Hero() {
             </div>
           </div>
           <div className="carousel-item">
-            <img
-              src="https://media.istockphoto.com/photos/container-ship-in-export-and-import-international-shipping-cargo-picture-id1266534217?b=1&k=20&m=1266534217&s=170667a&w=0&h=qnN8_PH1yh7UwXN3BBtPnEptOF8Vc5uUL40r9YOdBFY="
-              alt="..."
-              className="heroimg"
-            />
+            <img src={fast} alt="..." className="heroimg" />
             <div className="carousel-caption">
               <p>
-                Use data attributes to easily control the position of the
-                carousel. data-slide accepts the keywords prev or next, which
-                alters the slide position relative to its current position.
-                Alternatively, use data-slide-to to pass a raw slide index to
-                the carousel data-slide-to="2", which shifts the slide position
-                to a particular index beginning with 0.
+                Bia-courier supports Industries, importers, Online Sellers,
+                Startup Brands and Big Businesses to find reliable suppliers,
+                get the right prices, follow up production, ensure quality and
+                deliver goods to you in time. We are here at your disposal!
               </p>
               <div className="herobtn">
                 <button className="btn primary-bg text-light px-4 mr-3  round">

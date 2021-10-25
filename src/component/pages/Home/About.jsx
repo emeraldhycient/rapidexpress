@@ -8,15 +8,18 @@ function About() {
           <div className="col-md-7">
             <div className="text-center">
               <h4>
-                <b className="primary-text">About Us</b>
+                <b className="primary-text">ABOUT US</b>
               </h4>
               <hr className="hr bg-dark" />
             </div>
             <p className="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip.
+              All our suppliers undergo a strict evaluation to ensure you only
+              work with trustable factories instead of middlemen or dodgy
+              workshops. We also update our supplier list after each cooperation
+              according to the quality, prices, and lead time. Have you
+              encountered any problems in purchasing from China? Are you eager
+              to create your own brand/company? Welcome to contact us for any
+              needs. We’ll ensure you will partner with excellent suppliers.
             </p>
             <div className="mt-5">
               <div className="d-flex mb-4">

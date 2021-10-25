@@ -5,7 +5,7 @@ function Services() {
     <section className="mt-5  pt-3">
       <div className="text-center">
         <h4>
-          <b>Our Services</b>
+          <b>OUR SERVICES</b>
         </h4>
         <hr className="hr" />
       </div>

@@ -1,0 +1,9 @@
+#chatwindow {
+    height: 70vh;
+    overflow-y: auto;
+}
+
+#inputholder {
+    height: 13vh;
+    background-color: #fafafa;
+}

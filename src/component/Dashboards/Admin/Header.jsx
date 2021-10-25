@@ -21,40 +21,32 @@ function Header() {
       </button>
 
       <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul className="navbar-nav mx-auto mt-2 mt-lg-0">
+        <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
           <li className="nav-item active">
-            <a className="nav-link" href="/">
-              <h6>Home</h6>
+            <a className="nav-link" href="/admin/dashboard">
+              <h6>
+                <i className="fa fa-home mr-1"></i>
+                Home
+              </h6>
             </a>
           </li>
           <li className="nav-item active">
-            <a className="nav-link" href="/contact-us">
-              <h6>Contact Us</h6>
+            <a className="nav-link" href="/admin/dashboard/payment">
+              <h6>
+                <i className="fa fa-columns mr-1"></i>
+                Payments
+              </h6>
             </a>
           </li>
           <li className="nav-item active">
-            <a className="nav-link" href="/tracking">
-              <h6>Tracking</h6>
-            </a>
-          </li>
-          <li className="nav-item active">
-            <a className="nav-link" href="/tc">
-              <h6>Terms & Conditions</h6>
+            <a className="nav-link" href="/admin/dashboard/users">
+              <h6>
+                <i className="fa fa-users mr-1"></i>
+                Users
+              </h6>
             </a>
           </li>
         </ul>
-        <div className="">
-          <button className="btn primary-bg text-light px-4 mr-3 round">
-            <a href="/login" className="text-light">
-              Login
-            </a>
-          </button>
-          <button className="btn primary-bg text-light px-4 mr-3 round">
-            <a href="/register" className="text-light">
-              Register
-            </a>
-          </button>
-        </div>
       </div>
     </nav>
   );

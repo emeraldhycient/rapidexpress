@@ -1,0 +1,25 @@
+.blinker {
+    animation: blinking 1s infinite;
+}
+
+@keyframes blinking {
+    0% {
+        color: rgb(255, 8, 0);
+    }
+    50% {
+        color: transparent;
+    }
+    100% {
+        color: rgb(255, 196, 0);
+    }
+}
+
+#chatwindow {
+    height: 70vh;
+    overflow-y: auto;
+}
+
+#inputholder {
+    height: 13vh;
+    background-color: #fafafa;
+}
