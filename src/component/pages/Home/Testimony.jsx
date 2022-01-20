@@ -26,12 +26,12 @@ function Testimony() {
           <div className="col-md-4 mb-3">
             <img src={home} alt="" className="img-fluid mb-2" />
             <h4 className="primary-text">
-              <b>Susan Luke</b>
+              <b>olivia Enderson</b>
             </h4>
             <p className="text-muted">Satisfied client</p>
             <p className="text-muted mt-2">
               I’ve tried a lot of courier company, all on same ground, Now you
-              can say bye-bye to delayed delivery, BiaCourier is changing the
+              can say bye-bye to delayed delivery, Rapidexpress courier is changing the
               story everyday.
             </p>
           </div>
@@ -42,11 +42,11 @@ function Testimony() {
               className="img-fluid mb-2"
             />
             <h4 className="primary-text">
-              <b>morgan page</b>
+              <b>isabela peter</b>
             </h4>
             <p className="text-muted">Satisfied client</p>
             <p className="text-muted mt-2">
-              BiaCourier is not just a company, it’s a team, a big one indeed,
+            Rapidexpress Courier is not just a company, it’s a team, a big one indeed,
               that consists of a network of hardworking men and women .
             </p>
           </div>

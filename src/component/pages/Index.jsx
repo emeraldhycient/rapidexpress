@@ -9,6 +9,7 @@ import About from "./Home/About";
 import Partners from "./Home/Partners";
 import Testimony from "./Home/Testimony";
 import Fab from "./Fab";
+import Who from "./Home/Who";
 
 function Index() {
   /* const [vantaEffect, setVantaEffect] = useState(0);
@@ -32,6 +33,7 @@ function Index() {
         <Header />
         <Hero />
       </main>
+      <Who/>
       <Services />
       <About />
       <Fab />

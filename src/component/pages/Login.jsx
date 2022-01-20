@@ -52,7 +52,7 @@ function Login() {
   };
 
   useEffect(() => {
-    document.title = "login to your biacourier dashboard";
+    document.title = "login to your rapidexpress courier dashboard";
   }, []);
   return (
     <div>

@@ -36,19 +36,19 @@ function Contact() {
                 <h6>
                   <i className="fa fa-envelope text-danger bg-light rounded p-2 mr-2"></i>
                   <a
-                    href="mailto:support@biacourier.com"
+                    href="mailto:support@rapidexpresscourier.com"
                     className="text-light"
                   >
-                    support@biacourier.com
+                    support@rapidexpresscourier.com
                   </a>
                 </h6>
                 <h6>
                   <i className="fa fa-envelope text-danger bg-light rounded p-2 mr-2"></i>
                   <a
-                    href="mailto:support@biacourier.com"
+                    href="mailto:support@rapidexpresscourier.com"
                     className="text-light"
                   >
-                    support@biacourier.com
+                    support@rapidexpresscourier.com
                   </a>
                 </h6>
               </div>

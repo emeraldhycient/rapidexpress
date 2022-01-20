@@ -1,5 +1,7 @@
 import React from "react";
 import "./styles.css";
+import logo from "../images/bg.png"
+
 
 function Footer() {
   const d = new Date();
@@ -12,9 +14,7 @@ function Footer() {
             <div className="row m-auto">
               <div className="col-md-4 mt-4">
                 <a className="" href="/">
-                  <h3 className="primary-text">
-                    <b>BIACOURIER</b>
-                  </h3>
+                <img src={logo} width="160px" alt="rapid express courier logo"/>
                 </a>
               </div>
               <div className="col-md-4 mt-4">
@@ -79,7 +79,7 @@ function Footer() {
       </div>
       <div className="bottom-part text-center pt-3">
         <h5>
-          <b className="text-light mr-2">&copy; BiaCourier</b>
+          <b className="text-light mr-2">&copy; Rapidexpresscourier</b>
           <span className="text-muted">{year}</span>
         </h5>
       </div>

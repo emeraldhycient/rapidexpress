@@ -46,7 +46,7 @@ function Register() {
   };
 
   useEffect(() => {
-    document.title = "Register to your biacourier dashboard";
+    document.title = "Register to your rapidexpress courier dashboard";
   }, []);
   return (
     <div>

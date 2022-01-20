@@ -14,7 +14,7 @@ function Services() {
           <div className="col-md-6">
             <p>
               Globally known for our ability to handle every last detail of our
-              customers’ particular logistics and forwarding needs, BiaCourier
+              customers’ particular logistics and forwarding needs, Rapidexpress courier
               Special Services team takes care of all your logistics.
             </p>
           </div>
@@ -23,7 +23,7 @@ function Services() {
           <div className="col-md-4">
             <div className="d-flex align-items-center">
               <div className="circle mr-2">
-                <i className="fa fa-ship fa-2x"></i>
+                <i className="fa fa-ship"></i>
               </div>
               <h6>
                 <b>Cargo Delivery</b>
@@ -42,7 +42,7 @@ function Services() {
           <div className="col-md-4">
             <div className="d-flex align-items-center">
               <div className="circle mr-2">
-                <i className="fa fa-truck fa-2x"></i>
+                <i className="fa fa-truck"></i>
               </div>
               <h6>
                 <b>Freight Delivery</b>
@@ -61,7 +61,7 @@ function Services() {
           <div className="col-md-4">
             <div className="d-flex align-items-center">
               <div className="circle mr-2">
-                <i className="fa fa-home fa-2x"></i>
+                <i className="fa fa-home"></i>
               </div>
               <h6>
                 <b>Home Delivery</b>

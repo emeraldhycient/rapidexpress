@@ -1,12 +1,11 @@
 import React from "react";
+import logo from "../images/bg.png"
 
 function Header() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <a className="navbar-brand ml-3" href="/">
-        <h3 className="primary-text">
-          <b>BIACOURIER</b>
-        </h3>
+       <img src={logo} width="160px" alt="rapid express courier logo"/>
       </a>
       <button
         className="navbar-toggler"

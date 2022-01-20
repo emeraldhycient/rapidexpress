@@ -1,12 +1,13 @@
 import React from "react";
+import logo from "../../images/bg.png"
+import { logout } from "../../Auth/auth";
 
 function Header() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <a className="navbar-brand ml-3" href="/">
-        <h3 className="primary-text">
-          <b>BIACOURIER</b>
-        </h3>
+      <img src={logo} width="160px" alt="rapid express courier logo"/>
+
       </a>
       <button
         className="navbar-toggler"
@@ -45,6 +46,12 @@ function Header() {
                 Users
               </h6>
             </a>
+          </li>
+          <li className="nav-item active" onClick={(e) => logout()}>
+            <button className="btn primary-bg text-light">
+              <i className="fa fa-logout mr-1"></i>
+              Logout
+            </button>
           </li>
         </ul>
       </div>

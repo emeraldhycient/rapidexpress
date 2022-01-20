@@ -68,7 +68,7 @@ function CreateBooking() {
       <div className="container mt-5">
         <div className="col-md-8 mx-auto card px-3 pt-3 mb-3">
           <form action="" className="form-group" onSubmit={createbooking}>
-            <div className="border bg-light mb-3">
+            <div className="border bg-light mb-3 p-2">
               <h6 className=" ml-2 primary-text">
                 <b>Receivers Details</b>
               </h6>
@@ -125,7 +125,7 @@ function CreateBooking() {
                 />
               </div>
             </div>
-            <div className="border bg-light mb-3">
+            <div className="border bg-light mb-3 p-2">
               <h6 className=" ml-2 primary-text">
                 <b>Sender Details</b>
               </h6>
@@ -152,7 +152,7 @@ function CreateBooking() {
                 />
               </div>
             </div>
-            <div className="border bg-light mb-3">
+            <div className="border bg-light mb-3 p-2">
               <h6 className=" ml-2 primary-text">
                 <b>Shipment Details</b>
               </h6>
