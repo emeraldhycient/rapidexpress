@@ -20,7 +20,7 @@ function Login() {
     formdata.append("password", password);
 
     axios
-      .post("https://www.api.biacourier.com/auth/login.php", formdata)
+      .post("https://api.rapidexpressco.com/auth/login.php", formdata)
       .then((res) => {
         console.log(res);
         if (res.data.status === "success") {

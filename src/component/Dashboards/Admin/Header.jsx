@@ -32,18 +32,10 @@ function Header() {
             </a>
           </li>
           <li className="nav-item active">
-            <a className="nav-link" href="/admin/dashboard/payment">
-              <h6>
-                <i className="fa fa-columns mr-1"></i>
-                Payments
-              </h6>
-            </a>
-          </li>
-          <li className="nav-item active">
             <a className="nav-link" href="/admin/dashboard/users">
               <h6>
                 <i className="fa fa-users mr-1"></i>
-                Users
+                Messages
               </h6>
             </a>
           </li>

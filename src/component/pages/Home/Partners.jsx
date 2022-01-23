@@ -16,6 +16,7 @@ function Partners() {
               src="https://elemonwaves.com/wp-content/uploads/2021/04/images-34.jpeg"
               alt=""
               className="partners-img"
+              data-aos="zoom-in-left" data-aos-easing="ease-in-sine" data-aos-duration="900"
             />
           </div>
           <div className="col-md-3">
@@ -23,6 +24,7 @@ function Partners() {
               src="https://elemonwaves.com/wp-content/uploads/2021/04/images-9-1.png"
               alt=""
               className="partners-img"
+              data-aos="zoom-in-left" data-aos-easing="ease-in-sine" data-aos-duration="930"
             />
           </div>{" "}
           <div className="col-md-3">
@@ -30,6 +32,7 @@ function Partners() {
               src="https://elemonwaves.com/wp-content/uploads/2021/04/images-6.png"
               alt=""
               className="partners-img"
+              data-aos="zoom-in-left" data-aos-easing="ease-in-sine" data-aos-duration="960"
             />
           </div>{" "}
           <div className="col-md-3">
@@ -37,6 +40,7 @@ function Partners() {
               src="https://elemonwaves.com/wp-content/uploads/2021/04/images-55.jpeg"
               alt=""
               className="partners-img"
+              data-aos="zoom-in-left" data-aos-easing="ease-in-sine" data-aos-duration="1000"
             />
           </div>{" "}
         </div>

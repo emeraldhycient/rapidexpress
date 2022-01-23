@@ -1,6 +1,8 @@
 import React from "react";
 
 function Services() {
+
+
   return (
     <section className="mt-5  pt-3">
       <div className="text-center">
@@ -12,7 +14,7 @@ function Services() {
       <div className="container">
         <div className="d-flex justify-content-center align-items-center">
           <div className="col-md-6">
-            <p>
+            <p data-aos="zoom-in-left" data-aos-easing="ease-in-sine" data-aos-duration="1000">
               Globally known for our ability to handle every last detail of our
               customers’ particular logistics and forwarding needs, Rapidexpress courier
               Special Services team takes care of all your logistics.
@@ -20,7 +22,7 @@ function Services() {
           </div>
         </div>
         <div className="row mt-5">
-          <div className="col-md-4">
+          <div className="col-md-4" data-aos="zoom-in-left" data-aos-easing="ease-in-sine" data-aos-duration="1000">
             <div className="d-flex align-items-center">
               <div className="circle mr-2">
                 <i className="fa fa-ship"></i>
@@ -39,7 +41,7 @@ function Services() {
               professionalism, and we keep to all standard of quality.
             </p>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4" data-aos="zoom-in-left" data-aos-easing="ease-in-sine" data-aos-duration="1000">
             <div className="d-flex align-items-center">
               <div className="circle mr-2">
                 <i className="fa fa-truck"></i>
@@ -58,7 +60,7 @@ function Services() {
               professionalism, and we keep to all standard of quality.
             </p>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4" data-aos="zoom-in-left" data-aos-easing="ease-in-sine" data-aos-duration="1000">
             <div className="d-flex align-items-center">
               <div className="circle mr-2">
                 <i className="fa fa-home"></i>

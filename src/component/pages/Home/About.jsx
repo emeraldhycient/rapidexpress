@@ -24,7 +24,7 @@ function About() {
             <div className="mt-5">
               <div className="d-flex mb-4">
                 <i className="fa fa-rocket fa-3x primary-text"></i>
-                <div className="ml-3">
+                <div className="ml-3" data-aos="zoom-in-left" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                   <h6>
                     <b>FAST DELIVERY</b>
                   </h6>
@@ -36,7 +36,7 @@ function About() {
               </div>
               <div className="d-flex mb-4">
                 <i className="fa fa-fingerprint fa-3x primary-text"></i>
-                <div className="ml-3">
+                <div className="ml-3" data-aos="zoom-in-left" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                   <h6>
                     <b>SECURED SERVICE</b>
                   </h6>
@@ -48,7 +48,7 @@ function About() {
               </div>
               <div className="d-flex mb-4">
                 <i className="fa fa-globe-americas fa-3x primary-text"></i>
-                <div className="ml-3">
+                <div className="ml-3" data-aos="zoom-in-left" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                   <h6>
                     <b>WORLD WIDE SHIPPING</b>
                   </h6>
@@ -60,7 +60,7 @@ function About() {
               </div>
             </div>
           </div>
-          <div className="col-md-5">
+          <div className="col-md-5" data-aos="zoom-in-left" data-aos-easing="ease-in-sine" data-aos-duration="1000">
             <img
               src="https://jthemes.net/themes/wp/gocourier/wp-content/uploads/2016/05/about-img.png"
               alt=""

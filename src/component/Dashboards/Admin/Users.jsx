@@ -6,7 +6,7 @@ function Users() {
   const [users, setusers] = useState();
   const getUsers = () => {
     axios
-      .get("https://www.api.biacourier.com/admin/users.php")
+      .get("https://api.rapidexpressco.com/admin/users.php")
       .then((res) => {
         if (res.data.status === "success") {
           const data = Object.values(res.data.data.users);

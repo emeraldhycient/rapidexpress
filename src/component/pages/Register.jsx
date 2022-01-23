@@ -26,7 +26,7 @@ function Register() {
     formdata.append("isadmin", "");
 
     axios
-      .post("https://www.api.biacourier.com/auth/createaccount.php", formdata)
+      .post("https://api.rapidexpressco.com/auth/createaccount.php", formdata)
       .then((res) => {
         console.log(res);
         if (res.data.status === "success") {

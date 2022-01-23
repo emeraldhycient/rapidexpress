@@ -6,9 +6,9 @@ function Who() {
     <section className="container">
       <div className="row pt-5">
         <div className="col-md-5 pt-5">
-          <h4 className="primary-text">Who we are ?</h4>
+          <h4 className="primary-text" data-aos="zoom-in-left" data-aos-easing="ease-in-sine" data-aos-duration="1000">Who we are ?</h4>
           <h1 id="who_title">Your Global Courier Office</h1>
-          <p className="text-muted">
+          <p className="text-muted" data-aos="zoom-in-left" data-aos-easing="ease-in-sine" data-aos-duration="1000">
             Rapid Express supports Industries, importers, Online Sellers,
             Startup Brands and Big Businesses to find reliable suppliers, get
             the best prices, follow up production, ensure quality and deliver

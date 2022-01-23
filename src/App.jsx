@@ -1,5 +1,9 @@
+import { useEffect } from "react";
 import Index from "./component/pages/Index";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import { positions, Provider } from "react-alert";
 import AlertTemplate from "react-alert-template-basic";
 
@@ -23,6 +27,10 @@ function App() {
     timeout: 5000,
     position: positions.BOTTOM_CENTER,
   };
+
+  useEffect(() => {
+    AOS.init()
+  }, [])
 
   return (
     <>

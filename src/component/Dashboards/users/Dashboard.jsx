@@ -12,7 +12,7 @@ function Dashboard() {
 
     axios
       .get(
-        `https://www.api.biacourier.com/user/allBooking.php?userid=${userid}`
+        `https://api.rapidexpressco.com/user/allBooking.php?userid=${userid}`
       )
       .then((res) => {
         if (res.data.status === "success") {

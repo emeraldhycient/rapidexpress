@@ -18,7 +18,7 @@ function Tracking() {
     const formdata = new FormData();
     formdata.append("tracking", tracking);
     axios
-      .post("https://www.api.biacourier.com/admin/track.php", formdata)
+      .post("https://api.rapidexpressco.com/admin/track.php", formdata)
       .then((res) => {
         if (res.data.status === "success") {
           setbooking(res.data.data);
