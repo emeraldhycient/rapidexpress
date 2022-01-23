@@ -7,7 +7,7 @@ function Footer() {
   const d = new Date();
   const year = d.getFullYear();
   return (
-    <footer>
+    <footer data-aos="flip-up" data-aos-easing="ease-in-sine" data-aos-duration="930">
       <div id="footer">
         <div className="con">
           <div className="container">
